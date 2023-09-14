@@ -2,7 +2,7 @@ from sdcclient import IbmAuthHelper, SdMonitorClient
 import csv
 import datetime
 
-URL = 'https://us-south.monitoring.cloud.ibm.com'
+URL = 'URL of the cluster'
 APIKEY = "API KEY OF IBM CLOUD"
 
 GUID = "GUID of the monitoring instance"
