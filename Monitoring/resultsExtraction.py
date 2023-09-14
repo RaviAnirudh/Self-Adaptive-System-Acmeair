@@ -1,8 +1,8 @@
 import csv
 from datetime import datetime, timedelta
 
-input_file_Jmeter = 'C:\\Users\\ranir\\Desktop\\jmeter-10.csv'
-input_file_metrics= 'C:\\Users\\ranir\\Desktop\\acmeair\\metrics.csv'
+input_file_Jmeter = 'jmeter.csv path'
+input_file_metrics= 'metrics.csv path'
 output_file = 'output_converted.csv'
 
 def convert_timestamp(timestamp,flag):

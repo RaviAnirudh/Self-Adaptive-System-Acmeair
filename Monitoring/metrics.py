@@ -3,9 +3,9 @@ import csv
 import datetime
 
 URL = 'https://us-south.monitoring.cloud.ibm.com'
-APIKEY = "LHktrkQbq_syc_unrwI9WUNrfd1myD0Tw9VeGL4UjNh7"
+APIKEY = "API KEY OF IBM CLOUD"
 
-GUID = "30450f14-cc6e-466e-91fe-7fde6e828db3"
+GUID = "GUID of the monitoring instance"
 
 ibm_headers = IbmAuthHelper.get_headers(URL, APIKEY, GUID)
 sdclient = SdMonitorClient(sdc_url=URL, custom_headers=ibm_headers)
