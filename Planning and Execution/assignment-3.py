@@ -8,10 +8,11 @@ time_limit = 30 * 60
 flag_limit = 5 * 60
 
 
-URL = 'https://us-south.monitoring.cloud.ibm.com'
-APIKEY = "LHktrkQbq_syc_unrwI9WUNrfd1myD0Tw9VeGL4UjNh7"
+URL = 'URL of the cluster'
+APIKEY = "API KEY OF IBM CLOUD"
 
-GUID = "10b25fed-ac0d-4ffa-85be-bdbca4913f6f"
+GUID = "GUID of the monitoring instance"
+
 start_time = time.time()
 aIf = False
 aDf = False
@@ -19,7 +20,7 @@ aDf = False
 while True:
     current_time = time.time()
     elapsed_time = current_time - start_time
-    script_path = "C:\\Users\\ranir\\Desktop\\acmeair\\acmeair-mainservice-java\\scripts\\customizeBuildScript.sh"
+    script_path = "path of the script"
     if elapsed_time >= time_limit:
         print("Time limit reached. Stopping execution.")
         break
